@@ -3,6 +3,7 @@ class TextOperation:
         self.operation_type = operation_type
         self.character = character
 
+
 class TextEditor:
     def __init__(self):
         self.text = ""
@@ -36,6 +37,7 @@ class TextEditor:
     def display(self):
         print("Current text:", self.text)
 
+
 def main():
     editor = TextEditor()
     while True:
@@ -58,6 +60,7 @@ def main():
             break
         else:
             print("Invalid choice")
+
 
 if __name__ == "__main__":
     main()
